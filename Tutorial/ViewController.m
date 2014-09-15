@@ -28,6 +28,7 @@
 
 - (IBAction)pressbutton:(id)sender {
     NSLog(@"hello world");
+    NSLog(@"hello");
     
 }
 @end
