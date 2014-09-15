@@ -36,7 +36,7 @@
         <!--View Controller-->
         <scene sceneID="cK9-w7-DLn">
             <objects>
-                <viewController id="ubR-UI-vYw" sceneMemberID="viewController">
+                <viewController id="ubR-UI-vYw" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NZN-iw-die"/>
                         <viewControllerLayoutGuide type="bottom" id="sXT-dQ-qdz"/>
@@ -53,6 +53,16 @@
                                 </state>
                                 <connections>
                                     <segue destination="bkc-vl-MMR" kind="push" id="A7i-fA-MFW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zG-99-r49">
+                                <rect key="frame" x="157" y="353" width="46" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressbutton:" destination="ubR-UI-vYw" eventType="touchUpInside" id="UOD-wh-81c"/>
                                 </connections>
                             </button>
                         </subviews>
